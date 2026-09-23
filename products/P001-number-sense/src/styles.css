@@ -1,0 +1,17 @@
+*{box-sizing:border-box}
+:root{font-family:Arial,Helvetica,sans-serif;color:#111;background:#ddd}
+body{margin:0}
+#worksheets{display:grid;gap:24px;padding:24px;justify-content:center}
+.page{width:8.5in;min-height:11in;background:#fff;padding:.55in .6in;page-break-after:always;break-after:page}
+.header{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:3px solid #111;padding-bottom:12px;margin-bottom:20px}
+.header h1{font-size:25px;margin:0}.day{font-size:22px;font-weight:700}.focus{font-size:14px;margin-top:5px}.name{font-size:16px;margin-bottom:3px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.exercise{border:2px solid #111;border-radius:12px;padding:16px;min-height:3.75in}
+.exercise h2{font-size:18px;margin:0 0 18px}.prompt{font-size:17px;font-weight:700;margin-bottom:18px}
+.objects{font-size:34px;letter-spacing:8px;line-height:1.5}.choices{display:flex;gap:18px;flex-wrap:wrap}.choice{border:2px solid #111;border-radius:50%;width:52px;height:52px;display:grid;place-items:center;font-size:26px;font-weight:700}
+.answer-box{display:inline-block;width:62px;height:55px;border-bottom:3px solid #111;margin-left:12px;vertical-align:bottom}
+.match{display:grid;grid-template-columns:1fr 1fr;gap:18px;font-size:25px}.represent{height:125px;border:2px dashed #777;border-radius:8px}
+.ten-frame{display:grid;grid-template-columns:repeat(5,36px);grid-template-rows:repeat(2,36px);width:max-content}.cell{border:1.5px solid #111;display:grid;place-items:center}.dot{width:20px;height:20px;border:2px solid #111;border-radius:50%;background:#111}
+.footer{margin-top:18px;text-align:right;font-size:11px}
+@media print{:root{background:#fff}#worksheets{display:block;padding:0}.page{margin:0;box-shadow:none}}
+@page{size:Letter;margin:0}
