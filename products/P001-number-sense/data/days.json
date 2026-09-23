@@ -1,0 +1,5 @@
+[
+  {"day":1,"focus":"Recognize 0–3","modules":["circle-number","count-write","number-quantity-match","represent-number"]},
+  {"day":2,"focus":"Recognize and count 0–5","modules":["count-write","circle-number","number-quantity-match","represent-number"]},
+  {"day":3,"focus":"Quantity to numeral 0–5","modules":["count-write","number-quantity-match","ten-frame","circle-number"]}
+]
