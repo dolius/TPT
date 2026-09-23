@@ -1,0 +1,10 @@
+{
+  "name":"Nombre",
+  "day":"Día",
+  "count_write":"Cuenta y escribe.",
+  "circle_number":"Encierra el número.",
+  "missing_number":"Escribe el número que falta.",
+  "which_has_more":"¿Cuál tiene más?",
+  "write_before":"Escribe el número anterior.",
+  "write_after":"Escribe el número siguiente."
+}
