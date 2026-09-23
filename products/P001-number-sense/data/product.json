@@ -1,0 +1,13 @@
+{
+  "id": "P001",
+  "slug": "kindergarten-number-sense",
+  "title": "5-Minute Daily Number Sense",
+  "subtitle": "Kindergarten Math Practice — 30 Days",
+  "grade": "Kindergarten",
+  "numberRange": [0, 20],
+  "days": 30,
+  "primaryLanguage": "en",
+  "plannedLanguages": ["en", "es", "bilingual"],
+  "pageSize": "US Letter",
+  "promise": "One day = one page = about five minutes = no prep."
+}
