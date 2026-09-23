@@ -1,0 +1,10 @@
+{
+  "name":"Name",
+  "day":"Day",
+  "count_write":"Count and write.",
+  "circle_number":"Circle the number.",
+  "missing_number":"Write the missing number.",
+  "which_has_more":"Which has more?",
+  "write_before":"Write the number before.",
+  "write_after":"Write the number after."
+}
