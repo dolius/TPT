@@ -9,3 +9,6 @@ body{margin:0}.site-nav{width:8.5in;margin:18px auto 0;font-size:14px}.site-nav 
 @media print{:root{background:#fff}.site-nav{display:none}#worksheets{display:block;padding:0}.page{margin:0;box-shadow:none}.exercise{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
 @media print and (monochrome){.exercise{background:#fff!important}.exercise::before{background:#555!important}.dot{background:#555!important}}
 @page{size:Letter;margin:0}
+
+.mini-label{font-size:11px;font-weight:700;letter-spacing:.12em;color:var(--muted);text-transform:uppercase}.single-sheet{display:grid;justify-content:center;padding:24px}.math-picture{width:42px;height:42px;stroke-width:1.8}.picture-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:14px 0}.match .picture-row{margin:5px 0}.match .math-picture{width:24px;height:24px}.question{font-size:18px;margin-top:14px}.big-prompt{font-size:22px}.display-sample{font-family:var(--display);font-size:25px}
+@media print{.single-sheet{padding:0}}
